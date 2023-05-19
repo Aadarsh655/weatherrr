@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: #ffffff;
+   /* height:100%; */
+   display: grid;
+   place-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width:100%;
+    max-width: 470px; 
+    /* background: url(bg.JPG); */
+    background: linear-gradient(#0093E9,#80D0C7);
+    color:#ffffff;
+    /* margin:100px auto 0; */
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    /* margin-top: 0.2cm;
+    margin-bottom: 0cm; */
+    
+}
+
+.bar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.bar input{
+    border:0;
+    outline:0;
+    background: #ffffff;
+    color:#000000;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 90px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.bar button{
+    border:0;
+    outline:0;
+   border-radius: 100%;
+   background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    cursor:pointer;
+}
+
+.bar button img{
+   width:20px; 
+}
+
+.date{
+    margin-top: 0.5cm;
+    text-align: left;
+    
+    font-size:x-large;
+}
+
+.weather-icon{
+    width:100px;
+    margin-top: 30px;
+    align-items: left;
+    justify-content: center;
+}
+.error{
+    display: none;
+}
+.main h1{
+    margin-top: 1cm;
+    font-size: 50px;
+    font-weight: 500;
+}
+.main h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0.5cm;
+}
+.details{
+    margin-top: 1cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity .wind .pressure{
+    font-size: 28px;
+    margin-top: -6px;
+    margin-bottom: 0.1cm;
+}
+#btn{
+    font-family: 'Poppins',sans-serif;
+   border-radius:30px;
+   border:0;
+   font-size: 1rem;
+   font-weight: 300;
+   margin: 1rem 0;
+   /* padding: 2rem 3rem; */
+   /* text-transform: uppercase; */
+   white-space:nowrap;
+   height:30px;
+   width: 120px;
+   padding:0;
+   background: rgb(110, 155, 215);
+   color:rgb(255, 255, 255);
+   cursor: pointer;
+}
+
+#btn:hover{
+    background: rgb(110, 155, 215);
+    background: rgb(36, 75, 126) ;
+}
